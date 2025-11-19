@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Painel de Metas Diárias</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="cabecalho">
+            <h1>Painel de Metas Diárias</h1>
+        </div>
+    </header>
+
+    <main>
+        <section class="container">
+            <form id="form">
+                <input type="text" placeholder="Insira o título da meta">
+                <textarea id="descricao" placeholder="Descreva a meta"></textarea>
+
+                <p>Prioridade da Meta:</p>
+
+                <select>
+                    <option value="1">Baixa</option>
+                    <option value="2">Média</option>
+                    <option value="3">Alta</option>
+                </select>
+
+                <input type="date">
+
+                <button>Adicionar Tarefa</button>
+
+                <div class="erro"></div>
+
+            </form>
+        </section>
+
+        <section id="lista">
+            <ul id="lista-metas"></ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>Aline Rodrigues Silva</p>
+        <p>|</p>
+        <p>14 de novembro de 2025</p>
+    </footer>
+
+    <script src="./JS/script.js"></script>
+
+</body>
+
+</html>
