@@ -31,7 +31,7 @@ No terminal do VS Code digite: git clone https://github.com/usuario/nome-do-repo
 
 ## Melhorias Futuras
 - Colocaria uma opção de deixar salvo as concluídas e as removidas.
-- Colocaria uma cor específica para cada meta de acordo com sua prioridade, por exemplo, vermeho pra "Alta", laranja pra " Média" e amarelo pra "Baixa".
+- Colocaria uma cor específica para cada meta de acordo com sua prioridade, por exemplo, vermeho para "Alta", laranja para " Média" e amarelo para "Baixa".
 
 ## O que aprendi
 Aprendi muito sobre CSS ao fazer esse site, aprendi a melhorar meu ``<select>``, e sobre JavaScript.
